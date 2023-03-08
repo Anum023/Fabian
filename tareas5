@@ -1,0 +1,21 @@
+f_automoviles2 = pd.DataFrame( { "Marca":["Toyota Yaris","Chevrolet Aveo"],
+                                 "Motor":[1.5,1.5],
+                                 "Puertas":[4,4],
+                                 "Clindiros":[4,4,],
+                                 "ABS":[True,True],
+                                 "Color":["Gris","Azul"],
+                                 "Llantas":["R15","R14"],
+                                 "Largo(m)": [4.420,4.3],
+                                 "Distancia entre ejes(m)": [2.55,2.5],
+                                 "Ancho(m)": [1.730,1735] } )
+df_automoviles2.dtypes
+
+
+df_automoviles2=df_automoviles2.astype({'Color':'string'})
+
+##cambiar el tipo o el nombre de la variable
+df_automoviles2=df_automoviles2.astype({'Llantas':'string'})
+df_automoviles2=df_automoviles2.astype({'Marca':'string'})
+df_automoviles2.dtypes
+
+print(df_automoviles2)	
