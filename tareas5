@@ -1,4 +1,5 @@
-f_automoviles2 = pd.DataFrame( { "Marca":["Toyota Yaris","Chevrolet Aveo"],
+import pandas as pd
+df_automoviles2 = pd.DataFrame( { "Marca":["Toyota Yaris","Chevrolet Aveo"],
                                  "Motor":[1.5,1.5],
                                  "Puertas":[4,4],
                                  "Clindiros":[4,4,],
